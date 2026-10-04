@@ -218,3 +218,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Large local Computer Vision assets — do not upload to regular GitHub
+video_assets/
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Downloadable ML model weights — keep local, do not upload to GitHub
+*.pt
+*.pth
+*.onnx
+*.h5
+*.keras
+*.pkl
