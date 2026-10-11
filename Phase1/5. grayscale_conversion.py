@@ -1,6 +1,6 @@
 import cv2
 
-image = cv2.imread('assets/image1.jpg')
+image = cv2.imread('image_assets/image4.jpg')
 
 if image is not None:
   gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)

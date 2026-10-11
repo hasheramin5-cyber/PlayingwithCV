@@ -1,6 +1,6 @@
 import cv2
 
-image = cv2.imread('assets/image1.jpg')
+image = cv2.imread('image_assets/image1.jpg')
 
 if image is not None:
   
@@ -12,7 +12,7 @@ if image is not None:
   cv2.waitKey(0)
   cv2.destroyAllWindows()
   
-  success = cv2.imwrite("Output_Testing(1).jpg",hls)
+  success = cv2.imwrite("image_assets/Output_Testing(1).jpg",hls)
   
   if success:
     h, w, c = hls.shape

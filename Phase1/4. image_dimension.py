@@ -1,6 +1,6 @@
 import cv2
 
-image = cv2.imread('assets/image1.jpg')
+image = cv2.imread('image_assets/image1.jpg')
 
 if image is not None:
   h, w, c = image.shape
