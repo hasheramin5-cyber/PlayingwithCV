@@ -1,6 +1,6 @@
 import cv2
 
-image = cv2.imread("assets/image1.jpg")
+image = cv2.imread("image_assets/image1.jpg")
 
 if image is not None:
 
@@ -8,7 +8,7 @@ if image is not None:
     
     flipped_image = cv2.flip(image, flip_code)
     
-    save = cv2.imwrite('assets/flipped_image.jpg', flipped_image)
+    save = cv2.imwrite('image_assets/flipped_image.jpg', flipped_image)
     
     cv2.imshow('Original Image', image)
     cv2.imshow('Flipped Image', flipped_image)

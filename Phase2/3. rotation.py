@@ -1,6 +1,6 @@
 import cv2
 
-image = cv2.imread("assets/image1.jpg")
+image = cv2.imread("image_assets/image1.jpg")
 
 if image is not None:
     # Get the dimensions of the image
@@ -15,7 +15,7 @@ if image is not None:
     # Get the rotation matrix
     M = cv2.getRotationMatrix2D(center, angle, scale)
     rotated_image = cv2.warpAffine(image, M, (w, h))
-    save = cv2.imwrite('assets/rotated_image.jpg', rotated_image)
+    save = cv2.imwrite('image_assets/rotated_image.jpg', rotated_image)
     
     cv2.imshow('Original Image', image)
     cv2.imshow('Rotated Image', rotated_image)

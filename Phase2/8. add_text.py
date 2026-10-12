@@ -1,6 +1,6 @@
 import cv2
 
-image = cv2.imread('assets/image4.jpg')
+image = cv2.imread('image_assets/image4.jpg')
 
 if image is None:
   print("Oh no! Could not read the image.")
@@ -20,5 +20,5 @@ else:
   cv2.waitKey(0)
   cv2.destroyAllWindows()
   
-  save = cv2.imwrite("assets/text_image.jpg",text)
+  save = cv2.imwrite("image_assets/text_image.jpg",text)
   print("Image saved Successfully!") 
