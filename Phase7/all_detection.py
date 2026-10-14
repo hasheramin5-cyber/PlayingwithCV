@@ -40,28 +40,12 @@ while True:
         eyes = eye_cascade.detectMultiScale(roi_gray, 1.1, 5)
 
         if len(eyes) > 0:
-            cv2.putText(
-                frame,
-                "Eyes Detected",
-                (x, y-30),
-                cv2.FONT_HERSHEY_COMPLEX,
-                1,
-                (0, 255, 0),
-                2
-            )
+            cv2.putText(frame, "Eyes Detected", (x, y-30), cv2.FONT_HERSHEY_COMPLEX, 1, (0, 255, 0), 2)
 
         smiles = smile_cascade.detectMultiScale(roi_gray, 1.7, 20)
 
         if len(smiles) > 0:
-            cv2.putText(
-                frame,
-                "Smiles Detected",
-                (x, y-10),
-                cv2.FONT_HERSHEY_COMPLEX,
-                1,
-                (0, 255, 0),
-                2
-            )
+            cv2.putText(frame, "Smiles Detected", (x, y-10), cv2.FONT_HERSHEY_COMPLEX, 1, (0, 255, 0), 2)
 
     cv2.imshow("Smart Face Detector", frame)
 
