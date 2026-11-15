@@ -1,4 +1,4 @@
-# 👁️ Computer Vision Playground: From Basics to Deep Learning
+# Computer Vision Playground: From Basics to Deep Learning
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
@@ -14,9 +14,9 @@
 
 ---
 
-## 📸 Visual Highlights
+## Visual Highlights
 
-### 🎯 Deep Learning Object Detection (YOLOv8)
+### Deep Learning Object Detection (YOLOv8)
 Real-time object detection and classification using YOLOv8 models (`yolov8n`, `yolov8m`).
 
 <p align="center">
@@ -25,7 +25,7 @@ Real-time object detection and classification using YOLOv8 models (`yolov8n`, `y
 
 ---
 
-### 🎨 Color Grading & Unique Tone Conversions
+### Color Grading & Unique Tone Conversions
 Explore color spaces (HSV, LAB, YCrCb, HLS) and artistic algorithmic transformations.
 
 | Thermal Heatmap | Posterized Colors | Duotone | Sepia Filter | Negative |
@@ -34,7 +34,7 @@ Explore color spaces (HSV, LAB, YCrCb, HLS) and artistic algorithmic transformat
 
 ---
 
-### 🌈 RGB Channel Isolation
+### RGB Channel Isolation
 Isolating individual color channels to understand spectral responses.
 
 | Red Channel Filter | Green Channel Filter | Blue Channel Filter |
@@ -43,7 +43,7 @@ Isolating individual color channels to understand spectral responses.
 
 ---
 
-### 📐 Geometric Operations & Annotations
+### Geometric Operations & Annotations
 Transforming images and rendering geometric overlays (bounding boxes, circles, lines, text).
 
 | Rotated (45°) | Cropped ROI | Circle Overlay | Rectangle Overlay |
@@ -52,7 +52,7 @@ Transforming images and rendering geometric overlays (bounding boxes, circles, l
 
 ---
 
-### 🔍 Edge Detection & Spatial Filtering
+### Edge Detection & Spatial Filtering
 Extracting high-frequency details, gradients, and sharpening images.
 
 | Original / HLS Conversion | Canny Edge Detection | Image Sharpening |
@@ -61,7 +61,7 @@ Extracting high-frequency details, gradients, and sharpening images.
 
 ---
 
-## 🗂️ Curriculum Roadmap
+## Curriculum Roadmap
 
 This repository is structured into distinct sequential phases:
 
@@ -121,7 +121,7 @@ This repository is structured into distinct sequential phases:
 
 ---
 
-## 🛠️ Reusable Toolkit: `cv_utils.py`
+## Reusable Toolkit: `cv_utils.py`
 
 A standalone helper library included in the root directory for computer vision workflows:
 
@@ -133,15 +133,15 @@ A standalone helper library included in the root directory for computer vision w
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Prerequisites & Installation
 
 Clone this repository and set up a virtual environment:
 
 ```bash
-git clone https://github.com/<your-username>/CV.git
-cd CV
+git clone https://github.com/hasheramin5-cyber/PlayingwithCV.git
+cd PlayingwithCV
 ```
 
 Create a virtual environment and install dependencies:
@@ -181,14 +181,8 @@ pip install opencv-python numpy ultralytics
 
 ---
 
-## 💡 Tech Stack
+## Tech Stack
 
 * **Language**: Python 3.9+
 * **Libraries**: OpenCV (`cv2`), Ultralytics YOLOv8, NumPy
 * **Models**: YOLOv8 Nano (`yolov8n.pt`), Medium (`yolov8m.pt`), Haar Cascades
-
----
-
-<p align="center">
-  Made with ❤️ for Computer Vision enthusiasts and learners.
-</p>
